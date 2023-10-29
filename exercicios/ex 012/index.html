@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivo diferente</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/m.jpg" type="image/png">
+        <img src="img/g.png" alt="flexivel">
+    </picture><!--a ordem das img tem que ser da maior para a menor, sendo a menor em cima do cogico e a maior em baixo-->
+    <h1>Reproduzindo Áudios em HTML5.</h1>
+    <p>vamos aprender reproduzir áudios em html5</p>
+    <audio src="midia/hariel.mp3" controls autoplay></audio><!--compatividade mp3 wav ogg, outro codigo para colocar audio=/audio source src type-->
+</body> 
+</html>
